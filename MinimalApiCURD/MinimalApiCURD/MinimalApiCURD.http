@@ -1,0 +1,6 @@
+@MinimalApiCURD_HostAddress = http://localhost:5110
+
+GET {{MinimalApiCURD_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
