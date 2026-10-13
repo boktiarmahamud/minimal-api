@@ -30,7 +30,7 @@ namespace MinimalApiCURD.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
-                    b.Property<string>("Comapany")
+                    b.Property<string>("Company")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -41,7 +41,7 @@ namespace MinimalApiCURD.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("FisrtName")
+                    b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -68,10 +68,10 @@ namespace MinimalApiCURD.Migrations
                         new
                         {
                             id = 1,
-                            Comapany = "Tech Solutions",
+                            Company = "Tech Solutions",
                             CreateAt = new DateTime(2026, 1, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "boktiarmahamud@gmail.com",
-                            FisrtName = "Boktiar",
+                            FirstName = "Boktiar",
                             LastName = "Mahamud",
                             Phone = "+880 1744555821",
                             Status = "New"
