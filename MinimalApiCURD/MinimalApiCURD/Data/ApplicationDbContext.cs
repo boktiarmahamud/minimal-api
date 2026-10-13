@@ -9,7 +9,10 @@ namespace MinimalApiCURD.Data
         {
         }
 
-       public DbSet<Lead> Leads { get;set;  }
+        public DbSet<Lead> Leads { get;set;  }
+        public DbSet<User> Users { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -28,6 +31,8 @@ namespace MinimalApiCURD.Data
                     CreateAt = new DateTime(2026, 1, 10)
                 }
                 );
+
+           
         }
     }
 }
