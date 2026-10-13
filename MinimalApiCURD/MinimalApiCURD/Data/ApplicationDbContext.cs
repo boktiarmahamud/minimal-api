@@ -19,11 +19,11 @@ namespace MinimalApiCURD.Data
                 new Lead
                 {
                     id = 1,
-                    FisrtName = "Boktiar",
+                    FirstName = "Boktiar",
                     LastName = "Mahamud",
                     Email = "boktiarmahamud@gmail.com",
                     Phone = "+880 1744555821",
-                    Comapany = "Tech Solutions",
+                    Company = "Tech Solutions",
                     Status = "New",
                     CreateAt = new DateTime(2026, 1, 10)
                 }
